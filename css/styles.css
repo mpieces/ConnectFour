@@ -1,0 +1,60 @@
+.connect_4_table td {
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-style: inset;
+  border-radius: 50px;
+}
+
+
+.connect_4_table {
+	position: fixed;
+	left: 25%;
+	right: 25%;
+	border: 4px solid black;
+	background-color: yellow;
+	z-index: 10; 
+}
+
+.connect_4_table td.active-red {
+	background-color: red;
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-style: inset;
+  border-radius: 50px;
+}
+
+.connect_4_table td.active-black {
+	background-color: black;
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-style: inset;
+  border-radius: 50px;
+
+}
+
+body {
+	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/03/high-resolution-wallpapers-3.jpg");
+}
+
+.timer {
+	display: none;
+}
+
+#redirect_box {
+	background-color: yellow;
+	width: 15%;
+}
+
+	
+
+
+
+/*.connect_4_table td.active {
+  background-color: black;
+
+}
+*/
